@@ -149,18 +149,17 @@ main section {
     background-position: center;
 
 }
-.image-container{
+
+.image-container {
     display: flex;
     align-items: center;
 }
 
-.background-image{
+.background-image {
     align-content: center;
 }
 
-.text-overlay{
-    
-}
+.text-overlay {}
 
 .background-section {}
 
@@ -169,8 +168,11 @@ main section {
     background: url(<index.html>), lightgray 0px -203.444px / 100% 213.755% no-repeat;
 }
 
-.footer-style{
+.footer-style {
+    box-sizing: border-box;
     background: #111010;
-    padding: 2px 0px;
-    flex-shrink: 0;
+    height: 449px;
+
 }
+
+
