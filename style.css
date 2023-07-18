@@ -135,17 +135,42 @@ main section {
     justify-content: center;
 }
 
-h2 {
+.text-decor.h2.p {}
 
+/* Subscription section decoration */
+
+.Background {
+    width: 1440px;
+    height: 449px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: url("index.html"), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    background-position: center;
 
 }
+.image-container{
+    display: flex;
+    align-items: center;
+}
 
-p {
-    padding: 18px 30px;
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    /* 166.667% */
+.background-image{
+    align-content: center;
+}
+
+.text-overlay{
+    
+}
+
+.background-section {}
+
+.style {
+    border-radius: 8px;
+    background: url(<index.html>), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+}
+
+.footer-style{
+    background: #111010;
+    padding: 2px 0px;
+    flex-shrink: 0;
 }
