@@ -112,11 +112,40 @@ main section {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     justify-content: space-between;
-    align-items:center ;
+    align-items: center;
 }
 
 .offer-deal {
     color: #272727;
     font-size: 20px;
-   
+
+}
+
+/*Instagram Decoration*/
+
+.section-decor {
+    text-align: center;
+    display: flex;
+}
+
+.section-decor {
+    display: flex;
+    align-items: center;
+    padding: 40px 48px;
+    justify-content: center;
+}
+
+h2 {
+
+
+}
+
+p {
+    padding: 18px 30px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
 }
