@@ -15,16 +15,41 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
+header {
+    display: flex;
+}
+
 /*2. Banner Styling */
 .banner {
     padding: 50px 50px 0px 200px;
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: rgba(229, 84, 115, 0.10);
 }
+
 .banner .main-flower {
     width: 635px;
     height: 800px;
     flex-shrink: 0;
+}
+
+.banner-title {
+    font-size: 80px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    width: 708px;
+}
+
+.title-description {
+    max-width: 550px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
